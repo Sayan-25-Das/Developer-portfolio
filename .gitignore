@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment variables (SENSITIVE — never commit)
+config.env
+.env
+.env.local
+.env.production
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
